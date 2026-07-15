@@ -1,0 +1,9 @@
+package com.example.splitwise_jul_2026.repositories;
+
+import com.example.splitwise_jul_2026.models.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+}
