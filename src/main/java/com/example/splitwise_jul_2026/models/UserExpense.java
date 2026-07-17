@@ -21,6 +21,7 @@ public class UserExpense extends BaseModel {
 
     @Enumerated(EnumType.ORDINAL)
     private UserExpenseType userExpenseType;
+
 }
 /*
  1       1

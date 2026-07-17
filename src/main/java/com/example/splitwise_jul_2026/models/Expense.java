@@ -26,4 +26,7 @@ public class Expense extends BaseModel {
 
     @OneToMany(mappedBy = "expense", cascade = CascadeType.ALL)
     private List<UserExpense> userExpenses;
+
+    // private Map<user, expense, currency> hadToPay
+    // private Map<User, expense, currency> paid
 }
